@@ -60,6 +60,9 @@ var startQuiz = document.querySelector("#startQuiz");
 
 // If start quiz clicked start displaying the questions and start counter
 function statingquiz(event){
+        mainText.style.display= "none";
+        timeEl.style.display = "block";
+        setTime();
     //setting up question list
     var qa = [
         ["question1","option1","option2","option3","option4","1"],
@@ -67,9 +70,7 @@ function statingquiz(event){
         ["question3","option1","option2","option3","option4","answer"],
         ["question4","option1","option2","option3","option4","1"],
         ]
-        mainText.style.display= "none";
-        timeEl.style.display = "block";
-        setTime();
+        
         // mainText.setAttribute("display", "none");
         questions.style.display="block";
 
