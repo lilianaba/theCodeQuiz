@@ -19,6 +19,7 @@ save score
 user answer selection 
 timer time reduction 
 score calculation
+styling
 
 ## User Story
 
