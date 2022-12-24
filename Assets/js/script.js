@@ -66,8 +66,8 @@ function statingquiz(event){
     //setting up question list
     var qa = [
         ["question1","option1","option2","option3","option4","1"],
-        ["question2","option1","option2","option3","option4","answer"],
-        ["question3","option1","option2","option3","option4","answer"],
+        ["question2","option1","option2","option3","option4","1"],
+        ["question3","option1","option2","option3","option4","1"],
         ["question4","option1","option2","option3","option4","1"],
         ]
         
@@ -75,7 +75,7 @@ function statingquiz(event){
         questions.style.display="block";
 
     for(var i = 0 ; i < qa.length; i++){
-        console.log("Array position is: " + i )
+        console.log("Array position is: " + i  )
             
         // var questions = document.querySelector(".questions");
         questions.children[0].textContent = qa[i][0];
@@ -85,8 +85,8 @@ function statingquiz(event){
         answer4.textContent = qa[i][4];
         
         answer1.addEventListener("click",function() {
-            optionSelected = 1;
-            console.log("option selected :" + optionSelected);
+            optionSelected = "1";
+            console.log("Option Selected :" + optionSelected + "question #: " + i);
             if(optionSelected == qa[i][5]){
                 questions.children[2].textContent = "Your answer is correct";
              } else questions.children[2].textContent = "Your answer is wrong";
