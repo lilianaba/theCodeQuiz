@@ -1,8 +1,8 @@
-# 04 Web APIs: Code Quiz
+# The Code Quiz
 
 
 ## Live Site
-[Live Site](https://lilianaba.github.io/challengew4/)
+[Live Site](https://lilianaba.github.io/theCodeQuiz/)
 
 ## Your Task
 
