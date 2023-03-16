@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./Assets/js/style.css" />
     <title>Coding Quiz Challenge</title>
   </head>
   <body>
@@ -15,26 +15,38 @@
       <button id="startQuiz"></button>
     </div> 
    
-    <h1 class="time" style="text-align:right; display:none"></h1>
+    <h1 class="time hide"></h1>
     <div id="main"></div>
 
 
    
 
-    <div class = "questions" style="display:none" >
-      <h2></h2>
-      <ol>
-        <li><button id="answer1" value ="1"></button></li>
-        <li><button id="answer2" value ="2"></button></li>
-        <li><button id="answer3" value ="3"></button></li>
-        <li><button id="answer4" value ="4"></button></li>
-      </ol>
+    <div class = "questions"  >
+      <h2 id="questionTitle"></h2>
+     <div id="choices">
+
+     </div>
 
       <p></p>
 <!-- add a line before to show correct or incorrect -->
       <br/>
   </div>
+<div class="hide endGame">
+  <h2>Game OVER </h2>
+  <h1>Your Final Score is: <span id="score"></span></h1>
+  <p>
+    Please enter your Initials
+  </p>
+  <input type="text">
+  <button id="submit">Submit</button>
 
+</div>
+
+<div class="hide leaderboard">
+<h2>Leader Board</h2>
+<ol class="thelist"></ol>
+
+</div>
 
 
   <script src="./Assets/js/script.js"></script>
