@@ -1,62 +1,57 @@
-.hide{
-    display:none;
+.hide {
+  display: none;
 }
-.time{
-    text-align: right;
+.time {
+  text-align: right;
 }
-body{
-    height: 100vh;
+body {
+  height: 100vh;
 }
 
-
-button:hover{
-    cursor:pointer;
+button:hover {
+  cursor: pointer;
 }
-#choices button{
-    background-color: lightpink ;
-    border-radius: 20%;
-    font-size: 35px ;
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
+#choices button {
+  background-color: lightpink;
+  border-radius: 20%;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
 }
 button {
-    background-color: aqua;
-    font-size: 30px;
-    align-items: center;
-    display: inline;
-    margin: 15px;
+  background-color: aqua;
+  font-size: 30px;
+  align-items: center;
+  display: inline;
+  margin: 15px;
 }
-#submit{
-    background-color: greenyellow;
-
+#submit {
+  background-color: greenyellow;
 }
-input{
-    font-size: 35px;
-}
-
-.endGame p{
-    font-size: 25px;
-}
-.leaderboard{
-    width: 50%;
-    margin-left: 25%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
+input {
+  font-size: 35px;
 }
 
-.mainText p{
-    text-align: left;
-    width: 75%;
-    margin-left: 1px;
+.endGame p {
+  font-size: 25px;
+}
+.leaderboard {
+  width: 50%;
+  margin-left: 25%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
+.mainText p {
+  text-align: left;
+  width: 75%;
+  margin-left: 1px;
+}
 
-.questions{
-   
-    margin-left: 50px;
-    align-items: center;
+.questions {
+  margin-left: 50px;
+  align-items: center;
 }

@@ -8,48 +8,36 @@
     <title>Coding Quiz Challenge</title>
   </head>
   <body>
-
-    <div class="mainText" style="display:block">
+    <div class="mainText" style="display: block">
       <h1></h1>
       <p></p>
       <button id="startQuiz"></button>
-    </div> 
-   
+    </div>
+
     <h1 class="time hide"></h1>
     <div id="main"></div>
 
-
-   
-
-    <div class = "questions"  >
+    <div class="questions">
       <h2 id="questionTitle"></h2>
-     <div id="choices">
-
-     </div>
+      <div id="choices"></div>
 
       <p></p>
-<!-- add a line before to show correct or incorrect -->
-      <br/>
-  </div>
-<div class="hide endGame">
-  <h2>Game OVER </h2>
-  <h1>Your Final Score is: <span id="score"></span></h1>
-  <p>
-    Please enter your Initials
-  </p>
-  <input type="text">
-  <button id="submit">Submit</button>
+      <!-- add a line before to show correct or incorrect -->
+      <br />
+    </div>
+    <div class="hide endGame">
+      <h2>Game OVER</h2>
+      <h1>Your Final Score is: <span id="score"></span></h1>
+      <p>Please enter your Initials</p>
+      <input type="text" />
+      <button id="submit">Submit</button>
+    </div>
 
-</div>
+    <div class="hide leaderboard">
+      <h2>Leader Board</h2>
+      <ol class="thelist"></ol>
+    </div>
 
-<div class="hide leaderboard">
-<h2>Leader Board</h2>
-<ol class="thelist"></ol>
-
-</div>
-
-
-  <script src="./Assets/js/script.js"></script>
-</body>
-</html>    
-
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
